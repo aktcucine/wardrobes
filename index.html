@@ -82,7 +82,7 @@
 </script>
 <script>
 (function () {
-  const N = 30, pages = Array.from({ length: N }, (_, i) => 'pages/' + String(i + 1).padStart(2, '0') + '.jpg');
+  const N = 32, pages = Array.from({ length: N }, (_, i) => 'pages/' + String(i + 1).padStart(2, '0') + '.jpg');
   const el = document.getElementById('book'), count = document.getElementById('count');
   let loaded = 0;
   pages.forEach((src, i) => {
